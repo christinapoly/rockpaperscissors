@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/img.webp);
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+
+.container {
+  display: flex;
+  margin-top: 5%;
+  border: 3px solid yellow;
+  flex-direction: column;
+  background-color: black;
+}
+
+.btn_container {
+  margin: 5%;
+}
+
+p {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(238, 227, 14);
+  margin-top: 3%;
+  font-family: papyrus;
+  font-weight: bolder;
+}
+
+
+button {
+  width: 25%;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin: 3%;
+  padding: 3%;
+  background-color: rgb(238, 227, 14);
+  font-family: papyrus;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
